@@ -1,0 +1,224 @@
+/*** Imports ***/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/*** Helper  ***/
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.heading-border {width: 50%;}
+
+/*** Main Style ***/
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+strong {font-weight: 700;}
+
+a:link,
+a:visited {color: #d5d5d5;}
+
+a:hover,
+a:active {color: #fff;}
+
+/*** Home  ***/
+
+header {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/hero-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #161738;
+  border-bottom: #a5a6c7;
+  opacity: 0.8;
+}
+
+.logo {
+  font-size: 72px;
+  font-weight: 100;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+}
+
+.main-info h3 {
+  font-weight: 300;
+  margin: 0;
+}
+
+.main-info {color: #d5d5d5;}
+
+.learn-more {
+  font-size: 30px;
+  color: #d5d5d5;
+  position: absolute;
+}
+
+.learn-more .fa {position: absolute;}
+
+.learn-more .first-arrow {top: 20px;}
+
+.learn-more .second-arrow {top: 8px; left: -9.5px;}
+
+/*** About ***/
+
+#about {
+  padding-top: 33px;
+  padding-bottom: 30px;
+}
+
+.white-section .section-heading {
+  font-weight: 300;
+  color: #385fcb;
+}
+
+.usr-img {
+  margin-top: 10px;
+  width: 215px;
+  box-shadow: 0 1px 10px #385fcb;
+}
+
+blockquote:before {
+  content: "\201c";
+  color: #385fcb;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -3px;
+  font-size: 500%;
+}
+
+blockquote {
+  position: relative;
+  padding: 2%;
+  margin-top: 40px;
+  letter-spacing: 1px;
+  font-style: italic;
+  line-height: 145%;
+}
+
+cite {
+  text-align: left;
+  margin-top: 25px;
+  font-size: 90%;
+}
+
+/*** Portfolio ***/
+
+#portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/hero-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+.portfolio-items .section-heading {
+  font-weight: 100;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.thumbnail {border-radius: 1px;}
+
+.thumbnail img {width: 100%;}
+
+/*** Contact and Social ***/
+/*** Form ***/
+
+#contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.form-control {border-radius: 1px;}
+
+.btn {border-radius: 1px;}
+
+.sub {float: left;}
+
+/*** Social icons ***/
+
+.social-media h3 {
+  font-weight: 300;
+  color: #385fcb;
+}
+
+.social-media ul li {
+  text-decoration: 'none';
+  display: inline-block;
+  margin: 0 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.social-media ul li:first-child {margin-left: -20px;}
+
+#linkedIn a:link,
+#linkedIn a:visited,
+#linkedIn a:hover,
+#linkedIn a:active {color: #007bb5;}
+
+#twitter a:link,
+#twitter a:visited,
+#twitter a:hover,
+#twitter a:active {color: #55acee;}
+
+#gitHub a:link,
+#gitHub a:visited,
+#gitHub a:hover,
+#gitHub a:active {color: #111;}
+
+.well blockquote {border: 0;}
+
+/*** Footer ***/
+
+#footer {
+  padding: 5px 5px 25px 5px;
+  background-color: #111A30;
+  border-top: 5px solid #283a62;
+  opacity: .99;
+}
+
+#footer h4 {
+  font-weight: 300;
+  color: #d5d5d5;
+}
+
+#footer p {
+  font-weight: 700;
+  color: #cecece;
+}
+
+.btt {
+  font-weight: 300;
+  background-color: #283a62;
+}
+
+.author {
+  position: relative;
+  top: 10px;
+  color: #696969;
+}
