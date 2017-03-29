@@ -1,4 +1,4 @@
-/* Fix iPhone 5 and similar screen size devices */
+/* Fix for iPhone 5 and similar screen size devices */
 
 @media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
 

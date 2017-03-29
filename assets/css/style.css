@@ -54,11 +54,10 @@ header {
   font-weight: 100;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  display: inline-block;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 0 5px 0;
 }
 
-.main-info h3 {
+.main-info p {
   font-weight: 300;
   margin: 0;
 }
