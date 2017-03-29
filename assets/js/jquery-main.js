@@ -29,7 +29,7 @@ $("document").ready(function() {
     });
   });
 
-  //Adds Smooth Scrool to Back to Top button
+  //Adds Smooth Scrool to arrwo down
   $("#arrow a[href^='#']").on('click', function(e) {
 
     // Prevent default anchor click behavior
